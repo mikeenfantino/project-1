@@ -1,0 +1,144 @@
+/* Max Width 1023px
+------------------------------------------------- */
+
+@media screen and (max-width: 1023px) {
+
+	/* Button */
+
+	.btn {
+		display: block;
+		margin: 0 auto 15px;
+	}
+
+	.btn:last-child {
+		margin-bottom: 0;
+	}
+
+	/* Marquee */
+
+	.marquee {
+		height: 700px;
+	}
+
+	/* Marquee Content */
+
+	.marquee-content h1 {
+		font-size: 3em; /* 48px/16px */
+	}
+
+	.marquee-content h2 {
+		font-size: 1.5em; /* 24px/16px */
+		margin-bottom: 0;
+	}
+
+	.marquee-content h3 {
+		display: none;
+	}
+
+	/* Section Background */
+
+	.section-bg {
+		background-attachment: scroll;
+	}
+
+	/* Three Box */
+
+	.three-box .box {
+		width: auto;
+		margin: 0 0 50px;
+		float: none;
+	}
+
+	.three-box .box:last-child {
+		margin-bottom: 0;
+	}
+
+	/* Mod 2 */
+
+	.mod-2-secondary {
+		float: none;
+		width: auto;
+		margin-bottom: 25px;
+	}
+
+	.mod-2-primary {
+		float: none;
+		width: auto;
+	}
+
+	/* Mod 3 */
+
+	.mod-3 h3 {
+		font-size: 2.25em; /* 36px/16px */
+	}
+
+	.mod-3 blockquote p {
+		font-size: 0.875em; /* 14px/16px */
+	}
+
+	.mod-3 blockquote cite {
+		font-size: 0.875em; /* 14px/16px */
+	}
+
+	/* Mod 4 Primary */
+
+	.mod-4-primary {
+		float: none;
+		width: auto;
+	}
+
+	.mod-4-primary.v2 {
+		float: none;
+		width: auto;
+	}
+
+	/* Mod 4 Secondary */
+
+	.mod-4-secondary {
+		float: none;
+		width: auto;
+		height: 340px;
+	}
+
+	.mod-4-secondary.v2 {
+		float: none;
+		width: auto;
+		height: 340px;
+	}
+
+	/* Mod 5 Modifiers */
+
+	.mod-5-box.v-2 {
+		width: auto;
+		float: none;
+		margin-top: 100px;
+	}
+
+	.mod-5-box.v-2:first-child {
+		margin-top: 0;
+	}
+
+	/* Mod 6 */
+
+	.mod-6 {
+		max-width: 606px;
+	}
+
+	/* Mod 7 */
+
+	.mod-7-secondary {
+		float: none;
+		width: auto;
+		margin-bottom: 25px;
+		text-align: center;
+		padding: 0;
+	}
+
+	.mod-7-primary {
+		float: none;
+		width: auto;
+		text-align: center;
+		padding: 0;
+	}
+
+}

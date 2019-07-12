@@ -1,0 +1,26 @@
+/* Min Width 481px and Max Width 1023px
+------------------------------------------------- */
+
+@media screen and (min-width: 481px) and (max-width: 1023px) {
+
+  /* Mod 6 */
+
+  .mod-6 {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .mod-6-box {
+    width: 49.33993399339934%; /* 299px/606px */
+    margin: 1.32013201320132% 0 0 1.32013201320132%; /* 8px/606px | 8px/606px */
+  }
+
+  .mod-6-box:nth-child(2n+1) {
+    margin-left: 0;
+  }
+
+  .mod-6-box:nth-child(-n+2) {
+    margin-top: 0;
+  }
+
+}

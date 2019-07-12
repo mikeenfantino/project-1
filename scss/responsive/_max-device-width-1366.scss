@@ -1,0 +1,26 @@
+/* Max Device Width 1366px
+------------------------------------------------- */
+
+@media screen and (max-device-width: 1366px) {
+
+  /* Marquee */
+
+  .marquee {
+    background: url("../img/bg-adventure.jpg") center center/cover no-repeat;
+  }
+
+  .marquee-video {
+    display: none;
+  }
+
+  .marquee:after {
+    background: rgba(0, 0, 0, 0.75);
+  }
+
+  /* Section Background */
+
+  .section-bg {
+    background-attachment: scroll;
+  }
+
+}

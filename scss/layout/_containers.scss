@@ -1,0 +1,50 @@
+/* Global Width
+-------------------------------------------------------------- */
+
+.global-width {
+	max-width: 1220px;
+	width: 95%;
+	margin: 0 auto;
+}
+
+/* Section
+-------------------------------------------------------------- */
+
+.section-bg-light {
+	background-color: #f5f5f5;
+}
+
+/* Section Padding
+-------------------------------------------------------------- */
+
+.section-padding {
+	padding: 100px 0;
+}
+
+.section-padding-sm {
+	padding: 20px 0;
+}
+
+/* Section Background
+-------------------------------------------------------------- */
+
+.section-bg {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.section-bg-img-1 {
+	background-image: url("../img/bg-drive-lg.jpg");
+	background-position: center center;
+}
+
+.section-bg-img-2 {
+	background-image: url("../img/bg-map-lg.jpg");
+	background-position: center center;
+}
+
+.section-bg-img-3 {
+	background-image: url("../img/bg-scooter-lg.jpg");
+	background-position: center center;
+}

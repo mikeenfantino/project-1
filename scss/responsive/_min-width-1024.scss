@@ -1,0 +1,28 @@
+/* Min Width 1024px
+------------------------------------------------- */
+
+@media screen and (min-width: 1024px) {
+
+  /* Button */
+
+  .btn:nth-child(n+2) {
+    margin-left: 1.25em; /* 20px/16px */
+  }
+
+  /* Mod 5 */
+
+  .mod-5-box.v-2:nth-child(-n+2) {
+    margin-top: 0;
+  }
+
+  /* Mod 6 */
+  
+  .mod-6-box:nth-child(4n+1) {
+    margin-left: 0;
+  }
+
+  .mod-6-box:nth-child(-n+4) {
+    margin-top: 0;
+  }
+
+}
