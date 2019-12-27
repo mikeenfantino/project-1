@@ -1029,13 +1029,17 @@ legend .number {
   width: 100%;
   border: none;
   font-size: 1em;
-  -webkit-appearance: button;
-  -moz-appearance: button;
-       appearance: button;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
   outline: none;
 	font-family: 'Lato', sans-serif;
 	cursor: pointer;
 	border-radius: 5px;
+}
+
+.form-select select::-ms-expand {
+	display: none;
 }
 
 .form-select::before {
